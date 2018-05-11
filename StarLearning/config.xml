@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget android-versionCode="1000000" id="com.example.starlearning" version="1.0.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="LocalStorage">
+        <param name="ios-package" value="CDVLocalStorage" />
+    </feature>
+    <feature name="Console">
+        <param name="ios-package" value="CDVLogger" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="HandleOpenUrl">
+        <param name="ios-package" value="CDVHandleOpenURL" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="IntentAndNavigationFilter">
+        <param name="ios-package" value="CDVIntentAndNavigationFilter" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="GestureHandler">
+        <param name="ios-package" value="CDVGestureHandler" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="CDVWKWebViewEngine">
+        <param name="ios-package" value="CDVWKWebViewEngine" />
+    </feature>
+    <feature name="File">
+        <param name="ios-package" value="CDVFile" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>StarLearning</name>
+    <description>A fun set of education games</description>
+    <author email="eliotgeller85@gmail.com">Star Learning</author>
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <icon density="xxxhdpi" height="512" src="www/icons/icon-512.png" width="512" />
+    <icon height="256" src="www/icons/icon-256.png" width="256" />
+    <icon density="xhdpi" height="128" src="www/icons/icon-128.png" width="128" />
+    <icon density="mdpi" height="64" src="www/icons/icon-64.png" width="64" />
+    <icon height="32" src="www/icons/icon-32.png" width="32" />
+    <icon height="16" src="www/icons/icon-16.png" width="16" />
+    <access origin="*" />
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="BackupWebStorage" value="cloud" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="EnableViewportScale" value="false" />
+    <preference name="KeyboardDisplayRequiresUserAction" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />
+    <preference name="SuppressesIncrementalRendering" value="false" />
+    <preference name="SuppressesLongPressGesture" value="false" />
+    <preference name="Suppresses3DTouchGesture" value="false" />
+    <preference name="GapBetweenPages" value="0" />
+    <preference name="PageLength" value="0" />
+    <preference name="PaginationBreakingMode" value="page" />
+    <preference name="PaginationMode" value="unpaginated" />
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="false" />
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine" />
+    <preference name="deployment-target" value="9.0" />
+</widget>
